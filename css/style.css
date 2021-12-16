@@ -12,15 +12,16 @@ body, html {
     width: auto;   
 }
 
+
 #container {
-background-image: url("../img/jon-parry-4A9IELfRdwE-unsplash.jpg");
-background-size: 100%;
-background-position: center;
-height: 1000px;
-width: 100%;
-margin: 0;
-
-
+    background-image: url("../img/jon-parry-4A9IELfRdwE-unsplash.jpg");
+    background-size: 100%;
+    background-position: center;
+    height: 1000px;
+    width: 100%;
+    margin: 0;
+    display: grid;
+    grid-template-rows: 100px 1fr;
 }
 
 
@@ -31,6 +32,8 @@ header {
     align-items: center;
     justify-content: space-between;
     opacity: 50%;
+    margin: 25px;
+    border-radius: 20px;
 }
 
 #link_list {
@@ -54,11 +57,32 @@ header {
     margin: 25px;
 }
 
+#wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+}
+
 #text_box {
     display: flex;
-    width: 75%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(228, 225, 248, 0.5);
+    text-decoration: none;
+    width: 75vw;
+    height: 57.5vw;
+    
+}
+
+#box {
+    padding: 0;
+    display: flex;
+    height: auto;
+    width: 80vw;
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
-    background: crimson;
 }
