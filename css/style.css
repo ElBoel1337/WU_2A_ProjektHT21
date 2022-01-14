@@ -27,25 +27,25 @@ body, html {
 
 header {
     background-color: black;
-    height: 100px;
+    height: 16.4vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
     opacity: 55%;
-    margin: 25px;
-    border-radius: 20px;
+    margin: 4.1vh;
+    border-radius: 1.25rem;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 #title {
     display: flex;
-    width: 505px;
-    height: 100px;
+    width: 39.5vw;
+    height: 16.4vh;
     justify-content: center;
     align-items: center;
     color:white;
     font-family: sans-serif;
-    font-size: 30px;
+    font-size: 1.875rem;
     font-weight: 500;
 }
 
@@ -55,7 +55,7 @@ header {
     justify-content: end;
     align-items: center;
     width: 40%;
-    margin: 75px;
+    margin: 12.3vh;
 }
 
 .meny_link {
@@ -63,11 +63,11 @@ header {
     background: rgb(228, 225, 248);
     width: 11.7vw;
     height: 6.6vh;
-    border-radius: 10px;
+    border-radius: 0.625rem;
     text-decoration: none;
     justify-content: center;
     align-items: center;
-    margin: 25px;
+    margin: 4.1vh;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
     transition: 0.4s;
@@ -97,7 +97,7 @@ header {
     width: 75vw;
     height: 57.5vw;
     align-content: space-around;
-    border-radius: 5px;
+    border-radius: 0.3125rem;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
@@ -112,7 +112,7 @@ header {
     width: 75vw;
     height: max-content;
     /* align-content: space-around; */
-    border-radius: 5px;
+    border-radius: 0.3125rem;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 0.5fr 1fr 1fr 1fr;
@@ -179,8 +179,8 @@ header {
 }
 
 #texten {
-    margin-left: 120px;
-    margin-right: 120px;
+    margin-left: 9.375vw;
+    margin-right: 9.375vw;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 600;
     font-size: 1.2rem;
@@ -209,12 +209,12 @@ header {
     color: black;
     font-family: sans-serif;
     font-size: 3rem;
-    margin-top: 40px;
+    margin-top: 6.6vh;
 }
 
 .meny_ratter {
-    margin-left: 120px;
-    margin-right: 120px;
+    margin-left: 9.375vw;
+    margin-right: 9.375vw;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 600;
     font-size: 2rem;
