@@ -17,7 +17,7 @@ body, html {
     background-image: url("../img/jon-parry-4A9IELfRdwE-unsplash.jpg");
     background-size: 100%;
     background-position: center;
-    height: 1000px;
+    height: 164.2vh;
     width: 100%;
     margin: 0;
     display: grid;
@@ -94,7 +94,6 @@ header {
     justify-content: space-evenly;
     align-items: center;
     background: rgba(228, 225, 248, 0.8);
-    text-decoration: none;
     width: 75vw;
     height: 57.5vw;
     align-content: space-around;
@@ -102,10 +101,75 @@ header {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
+#text_box_2 {
+    margin-top: 5rem;
+    display: grid;
+    padding: 5vw;
+    /* flex-direction: column; */
+    /* justify-content: space-evenly; */
+    /* align-items: center; */
+    background: rgba(228, 225, 248, 0.8);
+    width: 75vw;
+    height: max-content;
+    /* align-content: space-around; */
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.5fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "he1 he1"
+    "ad1 vf1"
+    "ad2 vf2"
+    "ad3 vf3"
+    ;
+}
+
+#text_title_2 {
+    grid-area: he1;
+    background: red;
+}
+
+#vart_finns_vi_1 {
+    grid-area: vf1;
+    background: blue;
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+#vart_finns_vi_2 {
+    grid-area: vf2;
+    background: orange;
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+#vart_finns_vi_3 {
+    grid-area: vf3;
+    background: blue;
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+#adress_1 {
+    grid-area: ad1;
+    background: chartreuse;
+}
+#adress_2 {
+    grid-area: ad2;
+    background: orangered;
+}
+#adress_3 {
+    grid-area: ad3;
+    background: purple;
+}
+
 #id_box {
     /*padding: 0;*/
     display: flex;
-    height: auto;
+    height: max-content;
     width: 80vw;
     justify-content: center;
     flex-direction: column;
@@ -175,4 +239,10 @@ header {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 600;
     font-size: 2rem;
+}
+
+#grid_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
